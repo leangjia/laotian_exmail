@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="act_jump_laotianexmail_act_url" model="ir.actions.act_url">
+        <field name="name">跳转企业邮箱</field>
+        <field name="target">new</field>
+        <field name="url">https://exmail.qq.com</field>
+    </record>
+
+    <!--    跳转到企业邮箱-->
+    <menuitem name="企业邮箱"
+              id="jump_laotianexmail_menu_root"
+              action="act_jump_laotianexmail_act_url"
+              groups="base.group_user"
+              sequence="1"/>
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="EXmail" id="exmail.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="exmail.menu_1" parent="exmail.menu_root"/>
+    <menuitem name="Menu 2" id="exmail.menu_2" parent="exmail.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="exmail.menu_1_list" parent="exmail.menu_1"
+              action="exmail.action_window"/>
+    <menuitem name="Server to list" id="exmail" parent="exmail.menu_2"
+              action="exmail.action_server"/>
+    -->
+
+</odoo>
