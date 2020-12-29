@@ -11,6 +11,7 @@
               id="jump_laotianexmail_menu_root"
               action="act_jump_laotianexmail_act_url"
               groups="base.group_user"
+			  web_icon="laotian_mail,static/description/icon.png"
               sequence="1"/>
 
     <!-- Top menu item -->
